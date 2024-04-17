@@ -9,6 +9,8 @@
   margin: 3rem 3rem;
 }
 
+
+
 :root {
   /* Light Mode */
   --primary-color: #7360ff;
@@ -307,7 +309,7 @@ h4 {
 
 /* About */
 #about {
-  min-height: 100vh;
+  min-height: 80vh;
   background: var(--bg-secondary-color);
   padding-left: 1rem;
   padding-bottom: 1rem;

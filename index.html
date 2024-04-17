@@ -93,8 +93,8 @@
         <h2 class="head-text">
           ABOUT ME<span class="underline underline-primary"></span>
         </h2>
-
-        <p>
+        <div class="content p">
+          <p>
           Hola, soy un desarrollador backend, vivo en buenos aires ,argentina, y me especializo en desarrollo web.
           <a href="https://www.youtube.com/watch?v=3HqN-YS8eso" target="_blank">open source</a>.
         </p>
@@ -103,9 +103,11 @@
           desarrollar programas que potencien y mejoren la sociedad en la que vivimos. 
           Y tambien cursando la Licenciatura en Informática en la Universidad de Hurlingham en
           Buenos Aires.
-           
         </p>
 
+
+        </div>
+        
         <p>
           Tecnologías y herramientas que actualmente estoy utilizando y sobre en las que tengo conocimiento.
         </p>
@@ -123,7 +125,7 @@
             <h4> CSS</h4>
           </article>
           <article class="language-about"><img src="./img/projects/imag-tailwindcss.png" alt="" srcset="">
-            <h4> tailwindcss</h4>
+            <h4> TAILWINDCSS</h4>
           </article>
           <article class="language-about"><img
               src="./img/projects/kisspng-github-repository-commit-version-control-github-5ab8bdf71d6218.7448464515220566951204.png"
@@ -136,13 +138,12 @@
           <article class="language-about"><img src="./img/projects/imag-laravel.png" alt="" srcset="">
             <h4> LARAVEL</h4>
           </article>
-          <article class="language-about"><img src="./img/projects/image-java.png" alt="" srcset="">
+          <article class="language-about language-about-ex"><img src="./img/projects/image-java.svg" alt="" srcset="">
             <h4> JAVA</h4>
           </article>
-          <article class="language-about"><img src="./img/projects/spring-framword.png" alt="" srcset="">
+          <article class="language-about language-about-ex"><img src="./img/projects/spring.svg" alt="" srcset="">
             <h4> SPRING</h4>
           </article>
-
 
 
         </div>
@@ -172,7 +173,7 @@
               <p>
                 Conocimiento en otras tecnologías relevantes para el desarrollo de aplicaciones,
                 como Git, Docker, DigitalOsean, librerias como livewire, jetstream y brazze.
-                como tambien Spring Security, Spring Cloud, Hibernate entre otras.
+                como tambien Spring Security, Spring Cloud, Hibernate, Keycloak entre otras.
               </p>
             </div>
             <div class="card">
@@ -319,6 +320,40 @@
             </div>
           </div>
         </article>
+        <!-- Page 4 -->
+        <article class="project-content">
+          <div class="project-image project-image-two">
+            <img src="./img/projects/projects-orders.png" alt="skeep project" />
+            <a class="btn btn-three" href="https://github.com/ifranHugo/microservices-orders"
+              target="_blank">Preview Link</a>
+          </div>
+
+          <div class="card-content">
+            <h2>Backend para aplicacion de ordenes de productos sobre un inventario</h2>
+            <p>
+              Creé una aplicación escalable utilizando Spring Boot, implementando microservicios independientes que se comunican entre sí.
+              Utilicé herramientas como Eureka Netflix y Spring Cloud Gateway para una arquitectura robusta y escalable, y aseguré mis microservicios con Keycloak 
+              y Resilience4j para mejorar su resiliencia. Además, implementé comunicación asíncrona entre microservicios utilizando Apache Kafka y 
+              configuré un sistema de monitoreo avanzado con Zipkin,
+              Micrometer, Prometheus y Grafana para obtener información en tiempo real sobre el rendimiento y la salud de mis microservicios.
+            </p>
+            <div class="project-info">
+              <div class="stack">
+                <small class="language">Java</small>
+                <small class="language">Spring-Boot</small>
+                <small class="language">Eureka-Netflix</small>
+                <small class="language">Apache-Kafka</small>
+                <small class="language">Zipkin</small>
+              </div>
+
+              <div class="project-links">
+                <a href="https://github.com/ifranHugo/microservices-orders" target="_blank"><i class="fab fa-github"></i></a>
+                
+              </div>
+            </div>
+          </div>
+        </article>
+        
 
       </div>
     </section>
